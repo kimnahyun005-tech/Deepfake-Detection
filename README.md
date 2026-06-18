@@ -54,7 +54,7 @@ data/
 >
 > GitHub 용량 제한으로 인해 데이터셋은 Google Drive를 통해 제공합니다.
 >
-> 🔗 (https://drive.google.com/drive/folders/1j6NAzARefrXG7p4U_NkSNmAFRE2AZnyf?usp=sharing)
+> 🔗 https://drive.google.com/drive/folders/1j6NAzARefrXG7p4U_NkSNmAFRE2AZnyf?usp=sharing
 >
 > 포함 항목
 > 
@@ -132,13 +132,33 @@ Confusion Matrix를 통해 Real/Fake 분류 성능과 주요 오분류 패턴을
 - JPEG 압축률 조절 기능 제공
 - 압축률 변화에 따른 모델의 탐지 성능 및 강건성(Robustness) 확인
 - Real/Fake 예측 결과 출력
+### 6-1. Demo
 
+<table>
+<tr>
+<td align="center">
+
+**Original Image**
+
+<img width="218" height="413" alt="deepfake_site_real" src="https://github.com/user-attachments/assets/36d7b66f-a011-436f-b0a0-10052eab84d2" />
+
+
+</td>
+
+<td align="center">
+
+**Deepfake Image**
+
+<img width="232" height="406" alt="deepfake_site_fake" src="https://github.com/user-attachments/assets/25b39a05-674b-41de-9dc4-2ab65286ea63" />
+
+
+</td>
+</tr>
+</table>
 ※ 현재 웹 환경과 학습 환경 간 추론 결과 차이를 개선하기 위한 최적화를 진행 중이다.
-[이미지 업로드 화면 넣어라 까먹지말고 나현아]
 
-### 7-1. Demo
-🔗 Streamlit Web Application
-(링크)
+
+🔗 [Streamlit Web Application](https://deepfakedetector-jeepaygagosheepuhyo.streamlit.app/)
 
 ※ 현재 성능 최적화를 진행 중입니다.
 
