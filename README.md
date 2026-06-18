@@ -1,4 +1,4 @@
-# <h1 align="center">RGB & Artifact-based Deepfake Detection with CNN Ensemble</h1>
+# <h1 align="center">RGB & Artifact Map Deepfake Detection with CNN Ensemble</h1>
 
 <p align="center">
 RGB 및 Artifact 앙상블 기반 딥페이크 탐지 모델 개발 프로젝트
@@ -81,8 +81,8 @@ data/
 - MobileNetV3
 - ResNet-50
 - ViT-B/16
-본 프로젝트에서는 다음 딥러닝 모델들의 성능을 비교하였다.
-또한 RGB 이미지와 Artifact Map을 결합한 앙상블 모델을 구성하여 최종 성능을 비교하였다.
+  
+RGB 이미지와 Artifact Map을 결합한 Ensemble 모델을 구성하여 최종 성능을 비교하였다.
 
 ## 6. Experimental Results
 
@@ -140,25 +140,25 @@ Confusion Matrix를 통해 Real/Fake 분류 성능과 주요 오분류 패턴을
 <tr>
 <td align="center">
 
-<b>Original Image (Prediction: REAL)</b>
-
 <img width="272" height="516" alt="deepfake_site_real" src="https://github.com/user-attachments/assets/36d7b66f-a011-436f-b0a0-10052eab84d2" />
 
+<br>
+
+<i>Original Image (Real)</i>
 
 </td>
 
 <td align="center">
 
-<b>Deepfake Image (Prediction: FAKE)</b>
-
-
 <img width="290" height="507" alt="deepfake_site_fake" src="https://github.com/user-attachments/assets/25b39a05-674b-41de-9dc4-2ab65286ea63" />
 
+<br>
+
+<i>Deepfake Image (Fake)</i>
 
 </td>
 </tr>
 </table>
-
 
 🔗 **Live Demo:** [Streamlit Web Application](https://deepfakedetector-jeepaygagosheepuhyo.streamlit.app/)
 
