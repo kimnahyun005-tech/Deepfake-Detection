@@ -120,7 +120,7 @@ EfficientNet은 모델별 권장 입력 해상도가 다르므로, 기본 입력
 
 ### 6-4. Confusion Matrix
 <p>
-<img width="954" height="703" alt="Matrix" src="https://github.com/user-attachments/assets/26b65419-4a89-45a6-a2b3-5c6bc5837408" />
+<img width="572" height="421" alt="Matrix" src="https://github.com/user-attachments/assets/26b65419-4a89-45a6-a2b3-5c6bc5837408" />
 </p>
 Confusion Matrix를 통해 Real/Fake 분류 성능과 주요 오분류 패턴을 분석하였다.
 
@@ -132,6 +132,8 @@ Confusion Matrix를 통해 Real/Fake 분류 성능과 주요 오분류 패턴을
 - JPEG 압축률 조절 기능 제공
 - 압축률 변화에 따른 모델의 탐지 성능 및 강건성(Robustness) 확인
 - Real/Fake 예측 결과 출력
+
+  
 ### 6-1. Demo
 
 <table>
@@ -140,7 +142,7 @@ Confusion Matrix를 통해 Real/Fake 분류 성능과 주요 오분류 패턴을
 
 **Original Image**
 
-<img width="218" height="413" alt="deepfake_site_real" src="https://github.com/user-attachments/assets/36d7b66f-a011-436f-b0a0-10052eab84d2" />
+<img width="272" height="516" alt="deepfake_site_real" src="https://github.com/user-attachments/assets/36d7b66f-a011-436f-b0a0-10052eab84d2" />
 
 
 </td>
@@ -149,18 +151,17 @@ Confusion Matrix를 통해 Real/Fake 분류 성능과 주요 오분류 패턴을
 
 **Deepfake Image**
 
-<img width="232" height="406" alt="deepfake_site_fake" src="https://github.com/user-attachments/assets/25b39a05-674b-41de-9dc4-2ab65286ea63" />
+<img width="290" height="507" alt="deepfake_site_fake" src="https://github.com/user-attachments/assets/25b39a05-674b-41de-9dc4-2ab65286ea63" />
 
 
 </td>
 </tr>
 </table>
-※ 현재 웹 환경과 학습 환경 간 추론 결과 차이를 개선하기 위한 최적화를 진행 중이다.
 
 
 🔗 [Streamlit Web Application](https://deepfakedetector-jeepaygagosheepuhyo.streamlit.app/)
 
-※ 현재 성능 최적화를 진행 중입니다.
+※ 현재 웹 환경과 학습 환경 간 추론 결과 차이를 개선하기 위한 최적화를 진행 중이다.
 
 ## 8. Future Work
 - 웹 환경에서의 추론 성능 개선
